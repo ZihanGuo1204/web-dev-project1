@@ -22,7 +22,7 @@ The goal is to introduce who I am and showcase a few projects I’m working on.
 - Project demo link for Lightning Shark Delivery
 
 ## Screenshot
-(TODO: add a homepage screenshot)
+![Homepage screenshot](./assets/homepage.png)
 
 ## How to Run Locally
 Open the folder in VS Code and run `index.html` with Live Server.
