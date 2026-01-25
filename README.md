@@ -32,3 +32,20 @@ Optional formatting + lint:
 npm install
 npm run format
 npm run lint
+
+## GenAI Usage
+I used ChatGPT as a learning assistant while building this project. I mainly used it to
+ask questions, troubleshoot bugs, and get suggestions for organizing my code. I did the
+final implementation and edits myself to match the rubric and my own design choices.
+
+- Tool: ChatGPT (OpenAI)
+- How it was used:
+  - Clarified how to structure a simple portfolio layout with semantic HTML
+  - Helped me debug small CSS/JS issues (dark mode colors, button behavior, image preview)
+  - Suggested ways to keep code organized (separate folders, reusable classes)
+  - Helped me rewrite short text content to be clearer
+
+Example prompts I used:
+- “Why is my dark mode text hard to read, and what CSS variables should I adjust?”
+- “How can I open an image in a larger preview using plain JavaScript (no libraries)?”
+- “Can you suggest a clean file structure for HTML/CSS/JS/assets in a small project?”
