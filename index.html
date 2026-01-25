@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="./assets/shark1.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Personal homepage for Web Development Project 1"
+    />
+    <meta name="author" content="Zihan Guo" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Zihan Guo | Home</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="nav__logo" href="./index.html" aria-label="Go to homepage">
+          <span class="avatar" aria-hidden="true">ZG</span>
+        </a>
+
+        <ul class="nav__links">
+          <li><a class="nav__link" href="./index.html">Home</a></li>
+          <li><a class="nav__link" href="./about.html">About</a></li>
+          <li><a class="nav__link" href="./ai.html">AI Page</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" type="button">
+          Dark mode
+        </button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1 class="hero__title">
+          Hi, I’m Zihan <span class="wave" aria-hidden="true">👋</span>
+          <span class="shark" aria-hidden="true">🦈</span>
+        </h1>
+        <p class="hero__text">
+          I’m a CS student who enjoys building practical apps and improving my
+          frontend skills. This site is a quick portfolio for classmates,
+          instructors, and anyone who wants to see what I’m working on.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__text">
+          Here are a few things I’m currently working on (more coming soon).
+        </p>
+
+        <div class="cards">
+          <article class="card project" data-project="shark">
+            <img
+              class="project__img lightbox-img"
+              src="./assets/shark_web.png"
+              alt="Screenshot of my Lightning Shark Delivery cart and order summary page"
+            />
+            <h3 class="card__title">Lightning Shark Delivery</h3>
+            <p class="card__text">
+              A shopping & delivery system project with maps, login, and cart
+              features.
+            </p>
+
+            <a
+              class="project__demo"
+              href="https://youtu.be/Ux-WSDOssmI?si=snGqzG1VjnOaq8xf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              ▶ Watch demo
+            </a>
+
+            <button class="project__btn" type="button" aria-expanded="false">
+              Show details
+            </button>
+
+            <div class="project__details" hidden>
+              <ul class="list">
+                <li>Frontend: HTML/CSS/JS</li>
+                <li>Backend: Spring Boot (learning + building)</li>
+                <li>Feature ideas: map pins, cart sync, timezone handling</li>
+                <li>
+                  Demo video:
+                  <a
+                    href="https://youtu.be/Ux-WSDOssmI?si=snGqzG1VjnOaq8xf"
+                    target="_blank"
+                    rel="noreferrer"
+                    >YouTube link</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project" data-project="dmv">
+            <img
+              class="project__img lightbox-img"
+              src="./assets/iOS_app.png"
+              alt="Screenshot of my iOS DMV practice app (Easy Pass)"
+            />
+            <h3 class="card__title">iOS DMV Practice App</h3>
+            <p class="card__text">
+              A flashcard-style DMV practice app built using SwiftUI.
+            </p>
+
+            <button class="project__btn" type="button" aria-expanded="false">
+              Show details
+            </button>
+
+            <div class="project__details" hidden>
+              <ul class="list">
+                <li>Swipe + flip card interactions</li>
+                <li>Study mode + wrong answers review</li>
+                <li>Focus: simple UX and fast practice</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project" data-project="web">
+            <img
+              class="project__img lightbox-img"
+              src="./assets/my_web.png"
+              alt="Screenshot of my AirBNB listings web project page"
+            />
+            <h3 class="card__title">Web Dev Practice</h3>
+            <p class="card__text">
+              Small frontend experiments to improve layout, accessibility, and
+              JavaScript skills.
+            </p>
+
+            <button class="project__btn" type="button" aria-expanded="false">
+              Show details
+            </button>
+
+            <div class="project__details" hidden>
+              <ul class="list">
+                <li>Semantic HTML + accessibility checks</li>
+                <li>CSS layout (flexbox) practice</li>
+                <li>Small JS interactions (no libraries)</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="site-footer__text">© 2026 Zihan Guo</p>
+    </footer>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
