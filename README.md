@@ -4,7 +4,7 @@
 Zihan Guo
 
 ## Live Site
-(TODO: add GitHub Pages link)
+https://zihanguo1204.github.io/web-dev-project1/
 
 ## Project Objective
 A personal homepage built with vanilla HTML, CSS, and JavaScript (ES6 modules).  
