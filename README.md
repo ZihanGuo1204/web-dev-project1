@@ -8,6 +8,9 @@ Zihan Guo
 
 https://zihanguo1204.github.io/web-dev-project1/
 
+## Design Document
+- Google Doc: https://docs.google.com/document/d/1ADSZYyJPuW_JrrzhJNGq2aUSpzz48Xry-OgA-frH2IE/edit?usp=sharing
+
 ## Project Objective
 
 A personal homepage built with vanilla HTML, CSS, and JavaScript (ES6 modules).  
