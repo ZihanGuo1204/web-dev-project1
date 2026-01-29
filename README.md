@@ -22,11 +22,7 @@ The goal is to introduce who I am and showcase a few projects I’m working on.
 - about.html — About
 - ai.html — AI Page
 
-## Wire Frames
 
-Wireframe for Home
-Wireframe for About
-Wireframe for AI Page
 
 ## Features
 
